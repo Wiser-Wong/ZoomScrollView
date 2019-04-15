@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:dragSize="0.8"
-        app:maxZoom="250dp"
+        app:maxZoom="500dp"
         app:zoomId="@+id/iv_zoom">
 
         <LinearLayout
@@ -21,16 +21,16 @@
             <ImageView
                 android:id="@+id/iv_zoom"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/header" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="展位" />
+                android:text="占位" />
 
         </LinearLayout>
 
